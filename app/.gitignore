@@ -41,3 +41,7 @@ local.properties
 
 # Sandbox stuff
 _sandbox
+
+#Maps API Key
+#First commit without adding to .gitignore, then add to .gitignore and replace the UNDFINED keyword with actual key
+maps_api_key.xml
