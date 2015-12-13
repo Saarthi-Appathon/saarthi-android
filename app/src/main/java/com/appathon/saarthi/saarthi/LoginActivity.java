@@ -39,9 +39,9 @@ public class LoginActivity extends Activity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (ed1.getText().toString().equals("arjun") &&
+                if (ed1.getText().toString().equals("") &&
 
-                        ed2.getText().toString().equals("password")) {
+                        ed2.getText().toString().equals("")) {
                     Toast.makeText(getApplicationContext(), "Redirecting...", Toast.LENGTH_SHORT).show();
                     openMyLocation(v);
                 } else {
@@ -53,8 +53,8 @@ public class LoginActivity extends Activity {
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (ed1.getText().toString().equals("krishna") &&
-                        ed2.getText().toString().equals("password")) {
+                if (ed1.getText().toString().equals("") &&
+                        ed2.getText().toString().equals("")) {
                     Toast.makeText(getApplicationContext(), "Redirecting...", Toast.LENGTH_SHORT).show();
                     openRoutes(v);
                 } else {
@@ -120,7 +120,10 @@ public class LoginActivity extends Activity {
     }
 
     public void openRoutes(View view) {
-        // Do something in response to button
+        // this should  go to depo then route selection,
+        // because we need the route id
+        Intent intent = new Intent(this, ConductorDepo.class);
+        startActivity(intent);
     }
 
     public void openTicketWindow(View view) {
@@ -136,14 +139,3 @@ public class LoginActivity extends Activity {
     }
 }
 
-//import android.support.v7.app.AppCompatActivity;
-//import android.os.Bundle;
-//
-//public class LoginActivity extends AppCompatActivity {
-//
-//    @Override
-//    protected void onCreate(Bundle savedInstanceState) {
-//        super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_login);
-//    }
-//}

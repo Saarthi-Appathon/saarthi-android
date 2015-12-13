@@ -26,8 +26,4 @@ public class Ticket extends Activity {
         view.setBackgroundColor(color);
     }
 
-    @Override
-    public void onBackPressed() {
-        // your code.
-    }
 }

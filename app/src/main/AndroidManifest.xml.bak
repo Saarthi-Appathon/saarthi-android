@@ -51,7 +51,7 @@
         <activity
             android:name=".RegistrationComplete"
             android:label="@string/title_activity_registration_complete" />
-		<activity
+<activity
             android:name=".ConductorDepo"
             android:label="@string/title_activity_conductor_depo" />
         <activity android:name=".IssueTicket" />
@@ -59,8 +59,7 @@
         <activity android:name=".TicketPrint" />
         <activity
             android:name=".ConductorTasks"
-            android:label="@string/title_activity_conductor_tasks">
-		</activity>
+            android:label="@string/title_activity_conductor_tasks"></activity>
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps">

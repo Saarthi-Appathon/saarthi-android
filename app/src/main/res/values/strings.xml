@@ -12,6 +12,26 @@
     <string name="select2">Select Destination</string>
     <string name="proceedToPay">Proceed To Pay</string>
     <string name="title_activity_book_ticket">BookTicketActivity</string>
+    <string name="title_activity_conductor_depo">Conductor Depo</string>
+    <string name="enter_depo">Enter Depo</string>
+    <string name="find_routes">Find Routes</string>
+    <string name="title_activity_route_list">RouteList</string>
+    <string name="route_list">Route List</string>
+    <string name="next_bus">Next Bus</string>
+    <string name="show_timing">Show Timing</string>
+    <string name="enter_passenger">Enter Passenger Name</string>
+    <string name="enter_passenger_count">Passenger Count</string>
+    <string name="enter_source">Enter Source</string>
+    <string name="enter_dest">Enter Destination</string>
+    <string name="availability">Availability</string>
+    <string name="issue_ticket">Issue Ticket</string>
+    <string name="title_activity_conductor_tasks">ConductorTasks</string>
+    <string name="print_details">Print</string>
+    <string name="select_route">Select</string>
+    <string name="scan_ticket">Scan Ticket</string>
+    <string name="book_ticket">Book Ticket</string>
+    <string name="ticket_no">Ticket No</string>
+    <string name="ticket_details">Ticket Details</string>
 
 
     <string-array name="stops_array">
