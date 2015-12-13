@@ -31,8 +31,7 @@
         android:largeHeap="true"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LoginActivity">
-        </activity>
+        <activity android:name=".LoginActivity"></activity>
         <activity
             android:name=".BookTicketActivity"
             android:label="@string/title_activity_book_ticket" />
@@ -51,7 +50,7 @@
         <activity
             android:name=".RegistrationComplete"
             android:label="@string/title_activity_registration_complete" />
-		<activity
+        <activity
             android:name=".ConductorDepo"
             android:label="@string/title_activity_conductor_depo" />
         <activity android:name=".IssueTicket" />
@@ -59,16 +58,14 @@
         <activity android:name=".TicketPrint" />
         <activity
             android:name=".ConductorTasks"
-            android:label="@string/title_activity_conductor_tasks">
-		</activity>
+            android:label="@string/title_activity_conductor_tasks"></activity>
         <activity
             android:name=".MapsActivity"
-            android:label="@string/title_activity_maps">
-		</activity>
-
+            android:label="@string/title_activity_maps" />
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
