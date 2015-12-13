@@ -44,5 +44,4 @@ release.properties
 _sandbox
 
 # Maps API Key
-# First commit without adding to .gitignore, then add to .gitignore and replace the UNDFINED keyword with actual key
-src/main/res/values/maps_api_key.xml
+app/src/main/res/values/maps_api_key.xml
