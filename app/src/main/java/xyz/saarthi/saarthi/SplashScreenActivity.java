@@ -1,4 +1,4 @@
-package xyz.saathi.saarthi;
+package xyz.saarthi.saarthi;
 
 import android.app.Activity;
 import android.content.Intent;

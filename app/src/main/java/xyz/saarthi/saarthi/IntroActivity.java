@@ -1,11 +1,10 @@
-package xyz.saathi.saarthi;
+package xyz.saarthi.saarthi;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
 import com.github.paolorotolo.appintro.AppIntro2;
-import com.github.paolorotolo.appintro.AppIntroFragment;
 
 public class IntroActivity extends AppIntro2 {
     @Override

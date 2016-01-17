@@ -1,4 +1,4 @@
-package xyz.saathi.saarthi;
+package xyz.saarthi.saarthi;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

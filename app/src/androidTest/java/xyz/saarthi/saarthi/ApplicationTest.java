@@ -1,4 +1,4 @@
-package xyz.saathi.saarthi;
+package xyz.saarthi.saarthi;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
