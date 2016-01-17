@@ -7,23 +7,23 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class SampleSlide extends Fragment {
+public class UtilityIntroSlideTemplate extends Fragment {
 
     private static final String ARG_LAYOUT_RES_ID = "layoutResId";
 
-    public static SampleSlide newInstance(int layoutResId) {
-        SampleSlide sampleSlide = new SampleSlide();
+    public static UtilityIntroSlideTemplate newInstance(int layoutResId) {
+        UtilityIntroSlideTemplate utilityIntroSlideTemplate = new UtilityIntroSlideTemplate();
 
         Bundle args = new Bundle();
         args.putInt(ARG_LAYOUT_RES_ID, layoutResId);
-        sampleSlide.setArguments(args);
+        utilityIntroSlideTemplate.setArguments(args);
 
-        return sampleSlide;
+        return utilityIntroSlideTemplate;
     }
 
     private int layoutResId;
 
-    public SampleSlide() {}
+    public UtilityIntroSlideTemplate() {}
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
