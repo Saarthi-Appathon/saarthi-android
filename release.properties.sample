@@ -1,0 +1,4 @@
+keyStore="pathToJavaKeyStore"
+keyStorePassword="Password"
+keyAlias="Alias"
+keyPassword="Password"
