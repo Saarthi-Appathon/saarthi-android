@@ -25,4 +25,6 @@
     <string name="logout">LOGOUT</string>
     <string name="user_profile_picture">User Profile Picture</string>
     <string name="coming_soon">Hold on to that thought, this page is coming soon! </string>
+    <string name="saarthi_logo_desc">Saarthi</string>
+    <string name="saarthi_name_logo_desc">Saarthi</string>
 </resources>
