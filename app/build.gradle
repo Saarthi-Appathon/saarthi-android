@@ -22,9 +22,24 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:21.0.+'
-    compile 'com.android.support:cardview-v7:21.0.+'
-    compile 'com.android.support:recyclerview-v7:21.0.+'
+
+    // Android Support libraries
+    compile 'com.android.support:appcompat-v7:23.0.+'
+    compile 'com.android.support:cardview-v7:23.0.+'
+    compile 'com.android.support:recyclerview-v7:23.0.+'
     compile 'com.android.support:design:23.1.1'
+
+    // App Into Module
     compile 'com.github.paolorotolo:appintro:3.3.0'
+
+    // Facebook SDK
+    compile 'com.facebook.android:facebook-android-sdk:4.0.1'
+
+    // Google Play Services
+    compile 'com.google.android.gms:play-services:8.1.0'
+
+    // GSON library
+    compile 'com.google.code.gson:gson:2.3.1'
+
+    compile project(':smartloginlibrary-v0.5beta')
 }

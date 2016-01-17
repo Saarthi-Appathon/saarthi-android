@@ -10,10 +10,10 @@ public class IntroActivity extends AppIntro2 {
     @Override
     public void init(Bundle savedInstanceState) {
 
-        addSlide(SampleSlide.newInstance(R.layout.slide_intro_one));
-        addSlide(SampleSlide.newInstance(R.layout.slide_intro_two));
-        addSlide(SampleSlide.newInstance(R.layout.slide_intro_three));
-        addSlide(SampleSlide.newInstance(R.layout.slide_intro_four));
+        addSlide(UtilityIntroSlideTemplate.newInstance(R.layout.slide_intro_one));
+        addSlide(UtilityIntroSlideTemplate.newInstance(R.layout.slide_intro_two));
+        addSlide(UtilityIntroSlideTemplate.newInstance(R.layout.slide_intro_three));
+        addSlide(UtilityIntroSlideTemplate.newInstance(R.layout.slide_intro_four));
 
     }
 
