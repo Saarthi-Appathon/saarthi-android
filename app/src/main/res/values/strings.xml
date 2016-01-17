@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Saarthi</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Introduction -->
+    <string name="title_intro_one">Hello Punekar!</string>
+    <string name="title_intro_two">Step One : Search</string>
+    <string name="title_intro_three">Step Two : Locate</string>
+    <string name="title_intro_four">Step Three : Travel</string>
+    <string name="desc_intro_one">Welcome to the Pune SmartCity Platform. Now travel hassle free in 3 simple steps!</string>
+    <string name="desc_intro_two">Search for your travel route within Saarthi.</string>
+    <string name="desc_intro_three">Locate your ride in real time!</string>
+    <string name="desc_intro_four">Hop on! Let the journey begin.</string>
+    <string name="home">HOME</string>
+    <string name="more">MORE</string>
+    <string name="share">SHARE</string>
+    <string name="trips">TRIPS</string>
+    <string name="payments">PAYMENTS</string>
+    <string name="settings">SETTINGS</string>
+    <string name="help">HELP</string>
+    <string name="logout">LOGOUT</string>
+    <string name="user_profile_picture">User Profile Picture</string>
+    <string name="coming_soon">Hold on to that thought, this page is coming soon! </string>
+</resources>
