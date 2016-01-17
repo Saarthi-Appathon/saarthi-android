@@ -1,9 +1,7 @@
 package xyz.saarthi.saarthi;
 
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.preference.PreferenceManager;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.view.View;
@@ -28,11 +26,9 @@ public class MainActivity extends AppCompatActivity
 
         SmartUser currentUser = UserSessionManager.getCurrentUser(getApplicationContext());
         if(currentUser == null){
-            /*
-            Intent i = new Intent(MainActivity.this, UtilitySignInHandler.class);
+            Intent i = new Intent(MainActivity.this, UtilitySignInActivity.class);
             startActivity(i);
-            finish();
-            */
+            //finish();
         }
 
         setContentView(R.layout.activity_main);

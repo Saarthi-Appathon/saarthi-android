@@ -18,7 +18,7 @@ import studios.codelight.smartloginlibrary.users.SmartGoogleUser;
 import studios.codelight.smartloginlibrary.users.SmartUser;
 
 
-public class UtilitySignInHandler extends AppCompatActivity {
+public class UtilitySignInActivity extends AppCompatActivity {
 
     private SmartLoginBuilder loginBuilder = new SmartLoginBuilder();
 
