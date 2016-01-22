@@ -1,9 +1,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/primary_light"
+    android:background="@color/primary_dark"
     android:orientation="vertical"
     android:weightSum="4">
 
@@ -22,8 +21,8 @@
         </LinearLayout>
 
         <ImageView
-            android:layout_width="128dp"
-            android:layout_height="128dp"
+            android:layout_width="192dp"
+            android:layout_height="192dp"
             android:id="@+id/imageView_logo"
             android:src="@drawable/logo"
             android:layout_above="@+id/imageView_name"
